@@ -9,3 +9,4 @@ function makeRows(rows, cols) {
     content.appendChild(cell).className = "grid-item";
   };
 };
+makeRows(16,16);
