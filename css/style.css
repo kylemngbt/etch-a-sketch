@@ -6,3 +6,7 @@ body {
   align-items: center;
   background-color:lightgray;
 }
+
+.content {
+  display: grid;
+}
