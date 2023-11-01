@@ -7,6 +7,7 @@ function makeRows(rows, cols) {
   for (c = 0; c < (rows * cols); c++) {
     let cell = document.createElement("div");
     content.appendChild(cell).className = "grid-item";
+    cell.addEventListener('mouseover', changeBgColor);
   };
 };
 makeRows(16,16);
