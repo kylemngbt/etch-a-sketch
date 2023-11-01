@@ -17,4 +17,12 @@ function changeBgColor() {
   this.style.backgroundColor = `red`;
 }
 
+function deleteRows() {
+  const grids = document.querySelectorAll('.grid-item');
+  grids.forEach((grid) => {
+    content.removeChild(grid);
+  })
+}
+
+
 
