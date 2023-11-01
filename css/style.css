@@ -9,4 +9,5 @@ body {
 
 .content {
   display: grid;
+  background-color: white;
 }
