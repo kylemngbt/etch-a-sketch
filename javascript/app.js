@@ -12,4 +12,8 @@ function makeRows(rows, cols) {
 makeRows(16,16);
 
 const grids = document.querySelectorAll('.grid-item');
-
+grids.forEach((grid) => {
+  grid.addEventListener('mouseover', () => {
+    grid.style.backgroundColor = `red`;
+  })
+})
