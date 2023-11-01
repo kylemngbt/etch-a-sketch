@@ -11,6 +11,8 @@ function makeRows(rows, cols) {
 };
 makeRows(16,16);
 
-
+function changeBgColor() {
+  this.style.backgroundColor = `red`;
+}
 
 
