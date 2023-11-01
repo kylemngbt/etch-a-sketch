@@ -1,4 +1,5 @@
 const content = document.querySelector('.content');
+const changeGridSizeButton = document.querySelector('.changeGridSize');
 
 
 function makeRows(rows, cols) {
