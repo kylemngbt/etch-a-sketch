@@ -8,6 +8,10 @@ body {
   background-color:lightgray;
 }
 
+.header-text {
+  font-size: 50px;
+}
+
 .content {
   display: grid;
   background-color: white;
