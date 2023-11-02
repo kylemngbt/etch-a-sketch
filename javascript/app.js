@@ -82,4 +82,8 @@ changeGridSizeButton.addEventListener('click', () => {
 rainbowModeButton.addEventListener('click', rainbowMode);
 normalModeButton.addEventListener('click', normalMode);
 
+function addHover() {
+  this.classList.add('hover');
+}
+
 
