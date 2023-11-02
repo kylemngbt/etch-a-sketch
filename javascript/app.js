@@ -17,6 +17,14 @@ function changeBgColor() {
   this.style.backgroundColor = `black`;
 }
 
+function getRandomColor() {
+  let R = Math.floor(Math.random() * 256);
+  let G = Math.floor(Math.random() * 256);
+  let B = Math.floor(Math.random() * 256);
+  let randomColor = "rgb(" + R + "," + G + "," + B + ")";  
+  return randomColor;
+}
+
 function deleteGrids() {
   const grids = document.querySelectorAll('.grid-item');
   grids.forEach((grid) => {
