@@ -89,6 +89,7 @@ normalModeButton.addEventListener('click', normalMode);
 normalModeButton.addEventListener('mouseover', addHover);
 normalModeButton.addEventListener('mouseout', removeHover);
 clearButton.addEventListener('mouseover', addHover);
+clearButton.addEventListener('mouseout', removeHover);
 
 function addHover() {
   this.classList.add('hover');
