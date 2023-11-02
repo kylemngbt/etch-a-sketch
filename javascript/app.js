@@ -86,4 +86,8 @@ function addHover() {
   this.classList.add('hover');
 }
 
+function removeHover() {
+  this.classList.remove('hover');
+}
+
 
