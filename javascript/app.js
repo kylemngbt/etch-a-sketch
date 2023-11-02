@@ -37,6 +37,13 @@ function normalMode() {
   })
 }
 
+function clearMode() {
+  const grids = document.querySelectorAll('.grid-item');
+  grids.forEach((grid) => {
+    grid.style.backgroundColor = `white`;
+  })
+}
+
 function changeBgColor() {
   this.style.backgroundColor = `black`;
 }
