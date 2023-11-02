@@ -34,7 +34,8 @@ body {
 
 .changeGridSize,
 .rainbowMode,
-.normalMode {
+.normalMode,
+.clear {
   width: 170px;
   height: 35px;
   font-size: 15px;
