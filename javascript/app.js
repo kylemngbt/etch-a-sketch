@@ -3,6 +3,7 @@ const changeGridSizeButton = document.querySelector('.changeGridSize');
 const normalModeButton = document.querySelector('.normalMode');
 const rainbowModeButton = document.querySelector('.rainbowMode');
 const clearButton = document.querySelector('.clear');
+const eraserButton = document.querySelector('.eraser');
 
 
 
