@@ -66,5 +66,7 @@ changeGridSizeButton.addEventListener('click', () => {
   makeRows(gridSize,gridSize);
 });
 
+rainbowModeButton.addEventListener('click', rainbowMode);
+
 
 
