@@ -116,6 +116,7 @@ eraserButton.addEventListener('mouseout', removeHover);
 eraserButton.addEventListener('click', eraserMode);
 clearButton.addEventListener('mouseover', addHover);
 clearButton.addEventListener('mouseout', removeHover);
+clearButton.addEventListener('click', clearMode);
 
 
 function addHover() {
