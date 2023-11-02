@@ -96,6 +96,8 @@ rainbowModeButton.addEventListener('mouseout', removeHover);
 normalModeButton.addEventListener('click', normalMode);
 normalModeButton.addEventListener('mouseover', addHover);
 normalModeButton.addEventListener('mouseout', removeHover);
+eraserButton.addEventListener('mouseover', addHover);
+eraserButton.addEventListener('mouseout', removeHover);
 clearButton.addEventListener('mouseover', addHover);
 clearButton.addEventListener('mouseout', removeHover);
 clearButton.addEventListener('click', clearMode);
