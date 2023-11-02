@@ -34,7 +34,8 @@ body {
 .changeGridSize,
 .rainbowMode {
   width: 170px;
-  font-size: 14px;
+  height: 35px;
+  font-size: 15px;
   color: white;
   font-weight: bold;
   background-color: rgb(70, 64, 64);
