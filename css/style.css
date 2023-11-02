@@ -55,3 +55,7 @@ body {
   display: flex;
   gap: 50px;
 }
+
+.footer {
+  margin-top: auto;
+}
