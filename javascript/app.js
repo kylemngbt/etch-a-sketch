@@ -26,6 +26,16 @@ function rainbowMode() {
   })
 }
 
+function normalMode() {
+  const grids = document.querySelectorAll('.grid-item');
+  grids.forEach((grid) => {
+    grid.removeEventListener('mouseover', changeBgColor);
+  })
+  grids.forEach((grid) => {
+    grid.addEventListener('mouseover', changeBgColorRGB);
+  })
+}
+
 function changeBgColor() {
   this.style.backgroundColor = `black`;
 }
