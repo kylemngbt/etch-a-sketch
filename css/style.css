@@ -29,6 +29,7 @@ body {
   align-items: center;
   box-sizing: border-box;
   padding: 20px 5px;
+  gap: 15px;
 }
 
 .changeGridSize,
