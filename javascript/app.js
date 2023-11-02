@@ -16,6 +16,12 @@ function makeRows(rows, cols) {
 };
 makeRows(16,16);
 
+function rainbowMode() {
+  const grids = document.querySelectorAll('.grid-item');
+  grids.forEach((grid) => {
+    grid.addEventListener('mouseover', changeBgColorRGB);
+  })
+}
 
 function changeBgColor() {
   this.style.backgroundColor = `black`;
