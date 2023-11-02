@@ -1,5 +1,6 @@
 const content = document.querySelector('.content');
 const changeGridSizeButton = document.querySelector('.changeGridSize');
+const rainbowModeButton = document.querySelector('.normalMode');
 
 
 function makeRows(rows, cols) {
@@ -24,7 +25,6 @@ function getRandomColor() {
   let randomColor = "rgb(" + R + "," + G + "," + B + ")";  
   return randomColor;
 }
-
 function deleteGrids() {
   const grids = document.querySelectorAll('.grid-item');
   grids.forEach((grid) => {
@@ -52,6 +52,7 @@ changeGridSizeButton.addEventListener('click', () => {
   }
   makeRows(gridSize,gridSize);
 });
+
 
 
 
