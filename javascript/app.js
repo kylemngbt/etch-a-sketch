@@ -29,10 +29,10 @@ function rainbowMode() {
 function normalMode() {
   const grids = document.querySelectorAll('.grid-item');
   grids.forEach((grid) => {
-    grid.removeEventListener('mouseover', changeBgColor);
+    grid.removeEventListener('mouseover', changeBgColorRGB);
   })
   grids.forEach((grid) => {
-    grid.addEventListener('mouseover', changeBgColorRGB);
+    grid.addEventListener('mouseover', changeBgColor);
   })
 }
 
