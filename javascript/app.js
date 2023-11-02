@@ -80,6 +80,6 @@ changeGridSizeButton.addEventListener('click', () => {
 });
 
 rainbowModeButton.addEventListener('click', rainbowMode);
-
+normalModeButton.addEventListener('click', normalMode);
 
 
