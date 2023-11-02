@@ -19,6 +19,9 @@ makeRows(16,16);
 function rainbowMode() {
   const grids = document.querySelectorAll('.grid-item');
   grids.forEach((grid) => {
+    grid.removeEventListener('mouseover', changeBgColor);
+  })
+  grids.forEach((grid) => {
     grid.addEventListener('mouseover', changeBgColorRGB);
   })
 }
