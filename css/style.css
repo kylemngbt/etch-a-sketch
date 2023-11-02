@@ -31,6 +31,16 @@ body {
   padding: 20px;
 }
 
+.changeGridSize {
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(70, 64, 64);
+  border-radius: 5px;
+  padding: 5px 20px;
+  border: none;
+}
+
 .main {
   display: flex;
   gap: 50px;
