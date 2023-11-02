@@ -41,10 +41,6 @@ function changeBgColor() {
   this.style.backgroundColor = `black`;
 }
 
-function changeBgColorWhite() {
-  this.style.backgroundColor = `white`;
-}
-
 function changeBgColorRGB() {
   this.style.backgroundColor = `${getRandomColor()}`;
 }
@@ -94,7 +90,6 @@ normalModeButton.addEventListener('mouseover', addHover);
 normalModeButton.addEventListener('mouseout', removeHover);
 clearButton.addEventListener('mouseover', addHover);
 clearButton.addEventListener('mouseout', removeHover);
-
 function addHover() {
   this.classList.add('hover');
 }
