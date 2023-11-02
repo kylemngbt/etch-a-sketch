@@ -1,6 +1,7 @@
 const content = document.querySelector('.content');
 const changeGridSizeButton = document.querySelector('.changeGridSize');
-const rainbowModeButton = document.querySelector('.normalMode');
+const normalModeButton = document.querySelector('.normalMode');
+
 
 
 function makeRows(rows, cols) {
