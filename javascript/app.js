@@ -41,6 +41,10 @@ function changeBgColor() {
   this.style.backgroundColor = `black`;
 }
 
+function changeBgColorWhite() {
+  this.style.backgroundColor = `white`;
+}
+
 function changeBgColorRGB() {
   this.style.backgroundColor = `${getRandomColor()}`;
 }
