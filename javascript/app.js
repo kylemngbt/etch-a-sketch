@@ -80,10 +80,13 @@ changeGridSizeButton.addEventListener('click', () => {
 });
 
 changeGridSizeButton.addEventListener('mouseover', addHover);
+changeGridSizeButton.addEventListener('mouseout', removeHover);
 rainbowModeButton.addEventListener('click', rainbowMode);
 rainbowModeButton.addEventListener('mouseover', addHover);
+rainbowModeButton.addEventListener('mouseout', removeHover);
 normalModeButton.addEventListener('click', normalMode);
 normalModeButton.addEventListener('mouseover', addHover);
+normalModeButton.addEventListener('mouseout', removeHover);
 
 function addHover() {
   this.classList.add('hover');
