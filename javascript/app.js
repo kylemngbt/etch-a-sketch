@@ -16,8 +16,13 @@ function makeRows(rows, cols) {
 };
 makeRows(16,16);
 
+
 function changeBgColor() {
   this.style.backgroundColor = `black`;
+}
+
+function changeBgColorRGB() {
+  this.style.backgroundColor = `${getRandomColor()}`;
 }
 
 function getRandomColor() {
@@ -54,7 +59,6 @@ changeGridSizeButton.addEventListener('click', () => {
   }
   makeRows(gridSize,gridSize);
 });
-
 
 
 
