@@ -46,6 +46,11 @@ body {
   border: none;
 }
 
+.hover {
+  width: 180px;
+  height: 40px;
+}
+
 .main {
   display: flex;
   gap: 50px;
