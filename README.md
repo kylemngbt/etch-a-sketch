@@ -1,1 +1,1 @@
-# etch-a-sketch
+# A simple etch-a-sketch for TheOdinProject.
