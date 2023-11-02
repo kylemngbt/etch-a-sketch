@@ -79,8 +79,11 @@ changeGridSizeButton.addEventListener('click', () => {
   makeRows(gridSize,gridSize);
 });
 
+changeGridSizeButton.addEventListener('mouseover', addHover);
 rainbowModeButton.addEventListener('click', rainbowMode);
+rainbowModeButton.addEventListener('mouseover', addHover);
 normalModeButton.addEventListener('click', normalMode);
+normalModeButton.addEventListener('mouseover', addHover);
 
 function addHover() {
   this.classList.add('hover');
