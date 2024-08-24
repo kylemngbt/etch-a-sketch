@@ -7,6 +7,9 @@ const container = document.querySelector('.container');
       const gridColumn = document.createElement('div');
       gridColumn.classList.add('gridColumn');
       gridRow.appendChild(gridColumn);
+      gridColumn.addEventListener('mouseover', () => {
+        gridColumn.classList.add('black');
+      })
     }
     container.appendChild(gridRow);
   }
