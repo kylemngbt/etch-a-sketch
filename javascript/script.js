@@ -61,6 +61,6 @@ function setRgb () {
   })
 }
 
-
+rgbButton.addEventListener('click', setRgb);
 
 changeGridButton.addEventListener('click', changeGridSize);
