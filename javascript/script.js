@@ -41,3 +41,5 @@ const darkeningButton = document.querySelector('.darkening-button');
     }
 
   }
+
+  changeGridButton.addEventListener('click', changeGridSize);
