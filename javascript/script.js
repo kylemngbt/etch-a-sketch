@@ -53,4 +53,14 @@ function rgb () {
   this.style.background = randomColor();
 }
 
+function setRgb () {
+  const allGridColumn = document.querySelectorAll('.gridColumn');
+  allGridColumn.forEach((column) => {
+    column.removeEventListener('mouseover', black);
+    column.addEventListener('mouseover', rgb)
+  })
+}
+
+
+
 changeGridButton.addEventListener('click', changeGridSize);
