@@ -10,9 +10,7 @@ for (let i = 1; i <= 16; i++) {
     const gridColumn = document.createElement('div');
     gridColumn.classList.add('gridColumn');
     gridRow.appendChild(gridColumn);
-    gridColumn.addEventListener('mouseover', () => {
-      gridColumn.classList.add('black');
-    })
+    gridColumn.addEventListener('mouseover', black);
   }
   container.appendChild(gridRow);
 }
@@ -33,13 +31,15 @@ function changeGridSize () {
       const gridColumn = document.createElement('div');
       gridColumn.classList.add('gridColumn');
       gridRow.appendChild(gridColumn);
-      gridColumn.addEventListener('mouseover', () => {
-        gridColumn.classList.add('black');
-      })
+      gridColumn.addEventListener('mouseover', black);
     }
     container.appendChild(gridRow);
   }
 
+}
+
+function black () {
+  this.classList.add('black');
 }
 
 
