@@ -87,6 +87,7 @@ function setDarkening () {
   })
 }
 
-rgbButton.addEventListener('click', setRgb);
-
 changeGridButton.addEventListener('click', changeGridSize);
+rgbButton.addEventListener('click', setRgb);
+darkeningButton.addEventListener('click', setDarkening);
+
