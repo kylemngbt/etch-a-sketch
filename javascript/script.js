@@ -73,6 +73,7 @@ function setRgb () {
   const allGridColumn = document.querySelectorAll('.gridColumn');
   allGridColumn.forEach((column) => {
     column.removeEventListener('mouseover', black);
+    column.removeEventListener('mouseover', darkening);
     column.addEventListener('mouseover', rgb)
   })
 }
