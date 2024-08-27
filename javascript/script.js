@@ -77,6 +77,15 @@ function setRgb () {
   })
 }
 
+function setDarkening () {
+  const allGridColumn = document.querySelectorAll('.gridColumn');
+  allGridColumn.forEach((column) => {
+    column.removeEventListener('mouseover', black);
+    column.removeEventListener('mouseover', rgb);
+    column.addEventListener('mouseover', darkening);
+  })
+}
+
 rgbButton.addEventListener('click', setRgb);
 
 changeGridButton.addEventListener('click', changeGridSize);
