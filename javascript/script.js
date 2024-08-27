@@ -56,14 +56,12 @@ function rgb () {
 function darkening () {
   if (this.style.opacity == '') {
     opacity = 1;
-    console.log(opacity);
     opacity -= 0.1;
     this.style.opacity = opacity.toString();
   } else if (this.style.opacity == '0') {
     return
   } else {
     let opacity = +this.style.opacity;
-    console.log(opacity);
     opacity -= 0.1;
     this.style.opacity = opacity.toString();
   }
